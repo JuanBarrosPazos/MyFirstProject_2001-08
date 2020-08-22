@@ -1,0 +1,49 @@
+IMG {
+	BORDER-BOTTOM: #fff 0px; BORDER-LEFT: #fff 0px; BORDER-TOP: #fff 0px; BORDER-RIGHT: #fff 0px
+}
+#contenido_central {
+	MARGIN-TOP: 2px;
+	MIN-HEIGHT: 200px;
+	WIDTH: 830px;
+	HEIGHT: 510px;
+	MARGIN-LEFT: 2px;
+	MARGIN-RIGHT: 2px;
+	float: left;
+}
+#texto_contenido {
+WIDTH: 830px;
+BACKGROUND-REPEAT: no-repeat; 
+BACKGROUND-POSITION: 50% top; 
+HEIGHT: auto
+}
+.img-central {
+	MARGIN: 10px auto 6px
+}
+.clearFloat {
+	DISPLAY: inline; CLEAR: both
+}
+.limpiar {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
+#logo {
+	MARGIN-TOP: 12px;
+	WIDTH: auto;
+	FLOAT: none;
+	HEIGHT: auto;
+	MARGIN-RIGHT: 34px
+}
+UL.lista LI {
+	LIST-STYLE-TYPE: square;
+	FONT-FAMILY: sans-serif;
+	COLOR: #55BF9A;
+	FONT-SIZE: 10px
+}
+UL.lista LI A {
+	FONT-FAMILY: sans-serif; COLOR: #c60440; FONT-SIZE: 13px
+}
+UL.lista LI A:visited {
+	COLOR: #55BF9A
+}
+#contenido_central_cosentinotv {
+	MARGIN-TOP: 0px; MIN-HEIGHT: 15px; WIDTH: 838px; HEIGHT: auto; MARGIN-LEFT: 21px; MARGIN-RIGHT: 21px; PADDING-TOP: 0px
+}
