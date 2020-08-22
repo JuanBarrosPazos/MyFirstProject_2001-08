@@ -1,0 +1,291 @@
+a:visited {
+	color:#800000;
+	text-decoration:none;
+	font-family: "Times New Roman", Times, serif;
+}
+a:visited:hover {
+	color:#C10000;
+	text-decoration:none;
+	font-family: "Times New Roman", Times, serif;
+}
+a   img  {
+	border: 1px solid #0099CC;
+	padding: -1px;
+}
+.GrisOscBlanc {
+	text-decoration:none;
+	color:#333333;
+}
+a:hover.GrisOscBlanc {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+
+a:hover   img {
+	border: 1px solid #FFCC00;
+	padding: -1px;
+}
+.NegrNar {text-decoration:none; color:#000000;}
+A:hover.NegrNar {
+	color:#FFCC00;
+	text-decoration:none;
+}
+.NegrBlanc {text-decoration:none; color:#000000;}
+A:hover.NegrBlanc {
+	color:#ffffff;
+	text-decoration:none;
+}
+.BlancNegr {text-decoration:none; color:#ffffff;}
+A:hover.BlancNegr {
+	color:#000000;
+	text-decoration:none;
+}
+.BlancNar {text-decoration:none; color:#ffffff;}
+A:hover.BlancNar {
+	color:#FFCC00;
+	text-decoration:none;
+}
+.NarBlanc {text-decoration:none; color:#FFCC00;}
+A:hover.NarBlanc {
+	color:#ffffff;
+	text-decoration:none;
+}
+.AzulOscAzulClar{text-decoration:none; color:#000080;}
+A:hover.AzulOscAzulClar {
+	color:#99CCFF;
+	text-decoration:none;
+}
+.NarAzulClar{text-decoration:none; color:#FFCC00;}
+A:hover.NarAzulClar {
+	color:#99CCFF;
+	text-decoration:none;
+}
+.FlechIzdAzulClarNegrGrisOsc {
+	text-decoration:none;
+	color:#555;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 14px;
+}
+A:hover.FlechIzdAzulClarNegrGrisOsc {
+	color:#000;
+	text-decoration:none;
+	background-image: url("../Mallorca/Icono_Menu.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 14px;
+}
+.FlechIzdAzulClarAzulClarAzulOsc {
+	text-decoration:none;
+	color:#99CCFF;
+	font-style: italic;
+	font-weight: bold;
+}
+A:hover.FlechIzdAzulClarAzulClarAzulOsc {
+	color:#0000cc;
+	text-decoration:none;
+	background-image: url("../Mallorca/Icono_Menu.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 14px;
+}
+
+.FlechIzdAzulOscBlancAzulOsc{
+	text-decoration:none;
+	color:#ffffff;
+	padding-left: 10px;
+}
+
+A:hover.FlechIzdAzulOscBlancAzulOsc {
+	color:#0099cc;
+	text-decoration:none;
+	background-image: url(../Galicia/Icono_Menu_G.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+}
+
+.FlechIzdAzulClarBlockNarNarBlanc {
+	text-decoration:none;
+	color:#FFCC00;
+	text-align: left;
+	display: block;
+	height: 22px;
+	width: 198px;
+	padding-left: 16px;
+	padding-top: 2px;
+}
+a:hover.FlechIzdAzulClarBlockNarNarBlanc {
+	color:#ffffff;
+	text-decoration:none;
+	background-color: #FFCC00;
+	background-image: url("../Mallorca/Icono_Menu.png");
+	background-repeat: no-repeat;
+	background-position: 2px center;
+}
+#Caja3 {
+	float: left;
+	width: 160px;
+	color: #FFFFFF;
+	padding-top: 0px;
+	text-align: left;
+	height: auto;
+	margin-right: 10px;
+}
+
+#Caja3 a {
+	text-decoration: none;
+	color: #666666;
+	display: block;
+	width: 150px;
+	background-image: url(../images/Menu_02A.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 10px;
+	margin-top: 4px;
+
+}
+#Caja3 a:hover {
+	text-decoration: none;
+	color: #eeeeee;
+	display: block;
+	background-image: url(../images/Menu_03A.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-left: 10px;
+	width: 150px;
+	margin-top: 4px;
+}
+#Caja3B {
+	float: left;
+	width: 150px;
+	color: #FFFFFF;
+	padding-top: 0px;
+	text-align: left;
+	height: auto;
+	margin-right: 10px;
+}
+
+#Caja3B a {
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+	width: 140px;
+	background-image: url(../images/Menu_02A.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 10px;
+	margin-top: 4px;
+
+}
+#Caja3B a:hover {
+	text-decoration: none;
+	color: #eeeeee;
+	display: block;
+	background-image: url(../images/Menu_03A.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-left: 10px;
+	width: 140px;
+	margin-top: 4px;
+}
+#GaliciaCuerpo {
+	margin: 0px;
+	padding: 0px;
+	width: 980px;
+}
+#GaliciaMenu {
+	vertical-align: top;
+	width: 210px;
+	padding-top: 1px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+}
+
+
+
+
+.GaliciaAnterior {
+	text-decoration:none;
+	background-image: url(../images/flecha_re.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: block;
+	width: 38%;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+a:hover.GaliciaAnterior {
+	text-decoration:none;
+	background-image: url(../images/flecha_re.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.GaliciaSiguiente {
+	text-decoration:none;
+	background-image: url(../images/flecha_av.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	width: 38%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+a:hover.GaliciaSiguiente {
+	text-decoration:none;
+	background-image: url(../images/flecha_av.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#MallorcaMenu {
+	vertical-align: top;
+	width: 214px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	padding-right: 8px;
+	padding-left: 10px;
+}
+
+
+
+
+.limpiar {
+	clear: both;
+}
+
+
+#footer  {
+	height: 16px;
+	width: 100%;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 4px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+	color: #333333;
+}
+#footer  a  {
+	color: #333333;
+	text-decoration: none;
+}
+#footer  a:hover  {
+	color: #666666;
+	text-decoration: none;
+}
+#absolut {
+	position: absolute;
+	top: -2000px;
+	width: 800px;
+}
