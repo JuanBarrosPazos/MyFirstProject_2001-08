@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+<meta http-equiv="Content-Language" content="es-es">
+<META NAME="Language" CONTENT="Spanish">
+
+<meta name="description" content="Juan Manuel Barros Pazos Diseño web en Palma de Mallorca" />
+
+<meta name="keywords" content="Juan Manuel Barros Pazos Diseño web en Palma de Mallorca" />
+<meta name="robots" content="all, index, follow" />
+
+<meta name="audience" content="All" />
+
+<title>Juan Barros Pazos</title>
+<link href="css/DisenhoWeb.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	html {
+		overflow: hidden;
+		}
+
+	#screen {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	vertical-align: middle;
+	height: 500px;
+	width: 806;
+	padding-top: 0px;
+	margin-top: 0px;
+	top: 0px;
+	}
+	#screen img {
+	position: absolute;
+	left: -10000px;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-ms-interpolation-mode:nearest-neighbor;
+	}
+	
+	body {
+	text-align: center;
+	background-image: none;
+	color: #FFFFFF;
+}
+
+</style>
+
+<script type="text/javascript">
+
+var m = {
+	Z   : 100,
+	xm  : 0,
+	xmm : .25,
+	ymm : 0,
+	ym  : 0,
+	mx  : 0,
+	nx  : 0,
+	ny  : 0,
+	nw  : 0,
+	nh  : 0,
+	xR  : 0,
+	nI  : 0,
+	scr : 0,
+	img : 0,
+
+	run : function () {
+		m.xm += (m.xmm - m.xm) * .1;
+		if (m.ym < m.nw * .25) m.ym++;
+		m.xR += m.xm;
+		for (var i = 0; i < m.nI; i++){
+			var A = (i * 360 / m.nI) + m.xR;
+			var x = Math.cos(A * (Math.PI / 180));
+			var y = Math.sin(A * (Math.PI / 180));
+			var o = m.img[i];
+			o.style.width  = ''.concat(Math.round(Math.abs(y * m.ym) + y * m.Z), 'px');
+			o.style.left   = ''.concat(Math.round((m.nw * .5) + x * ((m.nw * .5) - (m.nw * .05)) - ((Math.abs(y * m.ym) + y * m.Z) * .5)), 'px');
+			o.style.height = ''.concat(Math.round(m.ym + y * m.Z), 'px');
+			o.style.top    = ''.concat(Math.round((m.nh * .5) - (m.ym * .5) - y * (m.Z * .5) - (m.ymm * y)), 'px');
+			o.style.zIndex = 1000 + Math.round(y);
+			m.setOpacity(o, (y * 50) + 100);
+		}
+		setTimeout(m.run, 16);
+	},
+
+	resize : function () {
+		m.nx  = m.scr.offsetLeft;
+		m.ny  = m.scr.offsetTop;
+		m.nw  = m.scr.offsetWidth;
+		m.nh  = m.scr.offsetHeight;
+	},
+
+	mousemove : function (e) {
+		if (window.event) e = window.event;
+		m.xmm = (m.nx + (m.nw * .5) - (e.x || e.clientX)) / (m.nw * .25);
+		m.ymm = (m.ny + (m.nh * .5) - (e.y || e.clientY)) / (m.nh * .005);
+	},
+
+	setOpacity : function (obj, o) {
+		if (o < 0) o = 0; else if (o > 100) o = 100;
+		if (obj.filters) obj.filters.alpha.opacity = o;
+		else obj.style.opacity = o / 100;
+	},
+
+	init : function () {
+		m.scr = document.getElementById("screen");
+		m.img = m.scr.getElementsByTagName("img");
+		m.nI  = m.img.length;
+		window.onresize = m.resize;
+		window.document.onmousemove = m.mousemove;
+		m.resize();
+		m.ym = m.Z;
+		m.run();
+	}
+}
+
+onload = function() {
+	m.init();
+}
+</script>
+
+
+
+<link href="favicon.ico" type='image/ico' rel='shortcut icon' />
+
+</head>
+
+
+<body id="cuerpo" topmargin="0" bgcolor="" >
+
+
+  <div id="screen"> 
+  
+	<a href="https://3dwarehouse.sketchup.com/user/0288729586066916107901095/Juan-Barr%C3%B3s?nav=models" target="_blank"> 
+		<img border="0" alt="Galeria 3D" src="Carrusel_Circular/images/Muestrario.jpg" /> 
+	</a> 
+  
+	<a href="Mail_Php/index.php" target="_blank"> 
+		<img border="0" alt="Formulario de Contactos" src="Carrusel_Circular/images/XanBarros.jpg" /> 
+	</a> 
+	  
+ 	<!-- 
+	<a href="puzz/puzz_Web.html" target="_blank"> 
+		<img border="0" alt="Puzzle As2" src="Carrusel_Circular/images/Puzzle.jpg" /> 
+	</a> 
+ 	--> 
+	<a href="Galicia/A_Corunha/Inicio_A_Corunha.htm" target="_blank">
+		<img border="0" alt="A Coruña" src="Carrusel_Circular/images/Galicia.jpg" />
+	</a> 
+  
+
+    <a href="http://programasgratisytutoriales.blogspot.com/2017/06/descarga-plantillas-excel-y-word-gratis.html" target="_blank"> 
+		<img border="0" alt="Plantillas Excell" src="Carrusel_Circular/images/excell.png" /> 
+	</a> 
+  
+  
+	<a href="http://programasgratisytutoriales.blogspot.com/2016/12/descarga-de-scripts-en-php-jq-js.html" target="_blank"> 
+		<img border="0" alt="Programas Gratis" src="Carrusel_Circular/images/app.png" /> 
+	</a> 
+
+	<a href="docs/Esculturas.htm" target="_blank"> 
+		<img border="0" alt="Programas Gratis" src="Carrusel_Circular/images/escultura.png" /> 
+	</a> 
+
+  </div>
+
+</body>
+</html>

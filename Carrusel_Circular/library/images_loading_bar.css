@@ -1,0 +1,16 @@
+library JS [crossbrowser resource] :
+#ILB {
+	position:absolute;left:50%;top:50%;
+}
+#ILB_loading {
+	color:#ccc;
+	position:absolute;font-family:arial;font-size:10px;left:-50px;top:-18px;
+}
+#ILB_background {
+	background:#333;
+	position:absolute;left:-50px;top:-5px;font-size:1px;width:100px;height:10px;overflow:hidden;
+}
+#ILB_bar {
+	background: #ccc;
+	position:absolute;font-size:1px;width:0px;height:10px;overflow:hidden;
+}
